@@ -1,0 +1,340 @@
+{
+ "file": "",
+ "overall_ai_score": 17.0,
+ "overall_risk": "low",
+ "total_paragraphs": 15,
+ "avg_ttr": 0.846,
+ "avg_sentence_len": 64.2,
+ "avg_sentence_len_variance": 365.9,
+ "paragraph_scores": [
+  {
+   "index": 0,
+   "text": "> 📈 免疫深读 · IEI 病种系列 07 | paper-to-story 闲时产线 | 2026-09-01（v3 专家复核修订版）",
+   "lang": "zh",
+   "ai_score": 11.0,
+   "matched_patterns": [],
+   "ttr": 1.0,
+   "avg_sentence_len": 69.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 69,
+   "bigram_diversity": 1.0,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 1.0,
+   "burstiness_score": 10,
+   "content_only_score": 11.0
+  },
+  {
+   "index": 1,
+   "text": "> 📚 **锚点文献**：Murray CE, Jannoud E, Prader S, Grimbacher B. How I treat: STAT3 hyper IgE syndrome. J Hum Immun 2026;2(4):e20260038（PMID 42221228，OA 全文）；配套 Hajialigol A, et al. JACI Pract 2025（490 例 DN/...",
+   "lang": "en",
+   "ai_score": 43.5,
+   "matched_patterns": [
+    {
+     "pattern": "\\*\\*.*?\\*\\*",
+     "category": "en_markdown",
+     "weight": 8
+    }
+   ],
+   "ttr": 0.852,
+   "avg_sentence_len": 9.3,
+   "sentence_len_variance": 1.9,
+   "paragraph_len": 437,
+   "bigram_diversity": 0.9623,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5301,
+   "perplexity_score": 1.0,
+   "burstiness_score": 7.8356884404107054,
+   "content_only_score": 43.5
+  },
+  {
+   "index": 2,
+   "text": "> 🔗 **ImmunoLens 互链**：[CID+ 类学习页 /learn/cidplus](http://localhost:5173/learn/cidplus)（联合免疫缺陷伴综合征特征：HIES 亚类与基因卡片）· 基因页 STAT3（17q21.2）· DOCK8（IUIS 归类 CID）",
+   "lang": "zh",
+   "ai_score": 16.0,
+   "matched_patterns": [],
+   "ttr": 0.767,
+   "avg_sentence_len": 155.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 155,
+   "bigram_diversity": 0.9655,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 1.0,
+   "burstiness_score": 10,
+   "content_only_score": 16.0
+  },
+  {
+   "index": 3,
+   "text": "> ✅ **门控实测**：术语 100% · AI 痕迹 17.2（low）· 翻译腔 0/191 句 · 药名 0 错 · 内容覆盖 必达 36/36 + 可选 100% · 溯源 0 不可溯源 · 机制密度 8.0/千字 · 证据密度 5.1/千字 · 风格门控 0 FAIL · 客观性自检 评价词 0（v3 复核后 style/provenance 复验通过）",
+   "lang": "zh",
+   "ai_score": 21.0,
+   "matched_patterns": [],
+   "ttr": 0.833,
+   "avg_sentence_len": 184.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 184,
+   "bigram_diversity": 0.9153,
+   "trigram_diversity": 0.9655,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 6.0,
+   "burstiness_score": 10,
+   "content_only_score": 21.0
+  },
+  {
+   "index": 4,
+   "text": "> 🎬 **成片已交付**（2026-09-01，v2 修正版）：4K 3840×2160 · 16 分 18 秒 · 19 页全 SVG 课件 · 295 条软字幕 · TTS 18 段（Cindy 1.5x，tts_auto_qc strict 全绿）· 飞书已发（1080p 播放版 + SRT，4K 母版存 82 服务器 output_4k.mp4）。v2 修正：解说词数值转换缺陷（\"百分之...",
+   "lang": "zh",
+   "ai_score": 8.0,
+   "matched_patterns": [],
+   "ttr": 0.792,
+   "avg_sentence_len": 126.0,
+   "sentence_len_variance": 2809.0,
+   "paragraph_len": 254,
+   "bigram_diversity": 0.9737,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 1.0,
+   "burstiness_score": 1.9576719576719581,
+   "content_only_score": 8.0
+  },
+  {
+   "index": 5,
+   "text": "> 🙏 v3 修订致谢：外部专家复核指出 DOCK8 的 IUIS 归类（已核：IUIS 2024/ImmunoLens 归入 CID）、dupilumab 体重分层（说明书 400/200）、产前检测前提（家族变异先确诊）等，均已采纳修订。",
+   "lang": "zh",
+   "ai_score": 16.0,
+   "matched_patterns": [],
+   "ttr": 0.848,
+   "avg_sentence_len": 120.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 121,
+   "bigram_diversity": 0.9778,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 1.0,
+   "burstiness_score": 10,
+   "content_only_score": 16.0
+  },
+  {
+   "index": 6,
+   "text": "# STAT3 高 IgE 综合征：从冷脓肿到全程管理——写给儿科与免疫科医生的病种深读",
+   "lang": "zh",
+   "ai_score": 10.9,
+   "matched_patterns": [],
+   "ttr": 0.964,
+   "avg_sentence_len": 44.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 44,
+   "bigram_diversity": 1.0,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 0.9,
+   "burstiness_score": 10,
+   "content_only_score": 10.9
+  },
+  {
+   "index": 7,
+   "text": "**Doctor Q · 2026年9月**",
+   "lang": "en",
+   "ai_score": 26.9,
+   "matched_patterns": [
+    {
+     "pattern": "\\*\\*.*?\\*\\*",
+     "category": "en_markdown",
+     "weight": 8
+    }
+   ],
+   "ttr": 1.0,
+   "avg_sentence_len": 4.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 22,
+   "bigram_diversity": 0.5,
+   "trigram_diversity": 0.5,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 0.0,
+   "burstiness_score": 10,
+   "content_only_score": 26.9
+  },
+  {
+   "index": 8,
+   "text": "> **文献来源**：Murray CE, Jannoud E, Prader S, Grimbacher B. How I treat: STAT3 hyper IgE syndrome. J Hum Immun 2026;2(4):e20260038（PMID 42221228）[1]；配套 Hajialigol A, et al. J Allergy Clin Immunol Pract 2...",
+   "lang": "en",
+   "ai_score": 43.7,
+   "matched_patterns": [
+    {
+     "pattern": "\\*\\*.*?\\*\\*",
+     "category": "en_markdown",
+     "weight": 8
+    }
+   ],
+   "ttr": 0.872,
+   "avg_sentence_len": 8.2,
+   "sentence_len_variance": 1.5,
+   "paragraph_len": 402,
+   "bigram_diversity": 0.9565,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5477,
+   "perplexity_score": 1.0,
+   "burstiness_score": 8.012817386849783,
+   "content_only_score": 43.7
+  },
+  {
+   "index": 9,
+   "text": "> **导读**：STAT3 高 IgE 综合征（STAT3-HIES）是常染色体显性遗传的多系统先天免疫缺陷，旧称\"约伯综合征\"。它的临床起点往往只是婴儿的湿疹和一份IgE 升高的化验单，与过敏性皮炎几乎无法区分；而它的终点可能是肺毁损、脆性骨折和冠状动脉瘤。本文按\"分子机制 → 临床表型 → 确诊与鉴别 → 抗感染与器官管理 → 特殊人群 → 移植与预后\"一条线展开，读者为儿科医生与免疫学研究...",
+   "lang": "zh",
+   "ai_score": 12.6,
+   "matched_patterns": [],
+   "ttr": 0.766,
+   "avg_sentence_len": 53.0,
+   "sentence_len_variance": 552.5,
+   "paragraph_len": 216,
+   "bigram_diversity": 0.9477,
+   "trigram_diversity": 0.9868,
+   "ppl_burstiness": 0.5486,
+   "perplexity_score": 2.5,
+   "burstiness_score": 0.13006847279761646,
+   "content_only_score": 12.6
+  },
+  {
+   "index": 10,
+   "text": "![STAT3-HIES 一图概览](/static/figures/iei07_fig0_hero.svg)",
+   "lang": "en",
+   "ai_score": 23.0,
+   "matched_patterns": [],
+   "ttr": 1.0,
+   "avg_sentence_len": 2.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 55,
+   "bigram_diversity": 1.0,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 0.0,
+   "burstiness_score": 10,
+   "content_only_score": 23.0
+  },
+  {
+   "index": 11,
+   "text": "## 1 引言：一个六十年前就画好了脸、八十年后才找到病根的病",
+   "lang": "zh",
+   "ai_score": 11.6,
+   "matched_patterns": [],
+   "ttr": 0.875,
+   "avg_sentence_len": 31.0,
+   "sentence_len_variance": 0.0,
+   "paragraph_len": 31,
+   "bigram_diversity": 0.9565,
+   "trigram_diversity": 1.0,
+   "ppl_burstiness": 0.5,
+   "perplexity_score": 1.6,
+   "burstiness_score": 10,
+   "content_only_score": 11.6
+  },
+  {
+   "index": 12,
+   "text": "1966 年，Davis 等在 Lancet 报告了两例反复发生\"冷\"性葡萄球菌脓肿的女性患者，脓肿周围几乎没有红、肿、热——这与当时对化脓性感染的全部常识相悖，作者借用《圣经》中遍体生疮的约伯，将其命名为\"约伯综合征\"[2]。六年后，Buckley 报告了血清 IgE 极度升高的反复感染病例，\"Buckley 综合征\"进入文献[3]。又过了二十七年，Grimbacher 等在 NEJM 整理 3...",
+   "lang": "zh",
+   "ai_score": 7.6,
+   "matched_patterns": [],
+   "ttr": 0.694,
+   "avg_sentence_len": 68.0,
+   "sentence_len_variance": 918.0,
+   "paragraph_len": 345,
+   "bigram_diversity": 0.9221,
+   "trigram_diversity": 0.9739,
+   "ppl_burstiness": 0.2994,
+   "perplexity_score": 7.5,
+   "burstiness_score": 0.08867211320993218,
+   "content_only_score": 7.6
+  },
+  {
+   "index": 13,
+   "text": "真正的答案晚至 2007 年才揭晓。两个团队分别独立发现：显性负效应的 STAT3 突变是本病的分子基础——Minegishi 在 15 例散发患者中找到 8 例携带杂合 STAT3 突变，父母与同胞均不携带，全部为新生突变，且 5 种突变无一例外落在 DNA 结合域[6]；Holland 于 2007 年在 50 例家系与散发病例中发现 18 处离散突变、其中 5 处为热点，集中累及 DNA 结...",
+   "lang": "zh",
+   "ai_score": 15.0,
+   "matched_patterns": [
+    {
+     "pattern": "诊断.*?基于",
+     "category": "structural_markers",
+     "weight": 3
+    }
+   ],
+   "ttr": 0.599,
+   "avg_sentence_len": 64.1,
+   "sentence_len_variance": 1108.1,
+   "paragraph_len": 521,
+   "bigram_diversity": 0.8953,
+   "trigram_diversity": 0.9729,
+   "ppl_burstiness": 0.8054,
+   "perplexity_score": 5.0,
+   "burstiness_score": 0.0,
+   "content_only_score": 15.0
+  },
+  {
+   "index": 14,
+   "text": "为什么儿科医生必须认识它？患病率因登记来源不同而估计有别，量级却一致：低于百万分之一[12][22]。这意味着一位儿科医生一生可能只遇到一例——而它最常被认成过敏性皮炎。认出的收益却极大：预防性抗感染和免疫球蛋白",
+   "lang": "zh",
+   "ai_score": 7.8,
+   "matched_patterns": [],
+   "ttr": 0.833,
+   "avg_sentence_len": 25.8,
+   "sentence_len_variance": 97.7,
+   "paragraph_len": 106,
+   "bigram_diversity": 0.9663,
+   "trigram_diversity": 0.9773,
+   "ppl_burstiness": 0.6332,
+   "perplexity_score": 1.5,
+   "burstiness_score": 1.337727880216082,
+   "content_only_score": 7.8
+  }
+ ],
+ "top_patterns": [
+  {
+   "pattern": "\\*\\*.*?\\*\\*",
+   "count": 3
+  },
+  {
+   "pattern": "诊断.*?基于",
+   "count": 1
+  }
+ ],
+ "language": "zh",
+ "details": "AI痕迹评分: 17.0/100  🟢 低风险\n共 15 段，命中 4 条AI模式\n\n段落明细:\n  P01 [██░░░░░░░░░░░░░░░░░░]  11.0  (TTR=1.00 句长方差=0.0)\n  P02 [████████░░░░░░░░░░░░]  43.5  (TTR=0.85 句长方差=1.9)\n  P03 [███░░░░░░░░░░░░░░░░░]  16.0  (TTR=0.77 句长方差=0.0)\n  P04 [████░░░░░░░░░░░░░░░░]  21.0  (TTR=0.83 句长方差=0.0)\n  P05 [█░░░░░░░░░░░░░░░░░░░]   8.0  (TTR=0.79 句长方差=2809.0)\n  P06 [███░░░░░░░░░░░░░░░░░]  16.0  (TTR=0.85 句长方差=0.0)\n  P07 [██░░░░░░░░░░░░░░░░░░]  10.9  (TTR=0.96 句长方差=0.0)\n  P08 [█████░░░░░░░░░░░░░░░]  26.9  (TTR=1.00 句长方差=0.0)\n  P09 [████████░░░░░░░░░░░░]  43.7  (TTR=0.87 句长方差=1.5)\n  P10 [██░░░░░░░░░░░░░░░░░░]  12.6  (TTR=0.77 句长方差=552.5)\n  P11 [████░░░░░░░░░░░░░░░░]  23.0  (TTR=1.00 句长方差=0.0)\n  P12 [██░░░░░░░░░░░░░░░░░░]  11.6  (TTR=0.88 句长方差=0.0)\n  P13 [█░░░░░░░░░░░░░░░░░░░]   7.6  (TTR=0.69 句长方差=918.0)\n  P14 [███░░░░░░░░░░░░░░░░░]  15.0  (TTR=0.60 句长方差=1108.1)\n  P15 [█░░░░░░░░░░░░░░░░░░░]   7.8  (TTR=0.83 句长方差=97.7)\n监督层(本地Qwen3 int8): p(人类)=0.865 p(AI)=0.114 p(AI辅助)=0.022 融合分=17.0 编辑程度估计=1.00\n学术诚信提示：本工具供作者自查与改进写作质量（句式、术语、文风），不用于规避机构的 AIGC 检测，不支持将 AI 生成内容伪装为人类写作；请遵循所在机构的 AI 使用与披露政策（标识合规可用 aigc_label_check.py 自查）。",
+ "model_hints": [
+  {
+   "family": "glm-5.3",
+   "hits": 4.0,
+   "confidence": 0.5
+  },
+  {
+   "family": "qwen-3",
+   "hits": 4.0,
+   "confidence": 0.5
+  }
+ ],
+ "supervised": {
+  "layer": "qwen3-0.6b-lora-onnx-int8",
+  "p_human": 0.86452,
+  "p_ai": 0.11357,
+  "p_ai_assisted": 0.02191,
+  "p_ai_any": 0.13548,
+  "n_tokens": 1024,
+  "edit_extent": 1.0
+ },
+ "degraded_mode": false,
+ "degraded_notice": "",
+ "discourse_hits": [],
+ "discourse_bonus": 0.0,
+ "integrity_notice": "学术诚信提示：本工具供作者自查与改进写作质量（句式、术语、文风），不用于规避机构的 AIGC 检测，不支持将 AI 生成内容伪装为人类写作；请遵循所在机构的 AI 使用与披露政策（标识合规可用 aigc_label_check.py 自查）。",
+ "mixed_signal": false,
+ "mixed_notice": "",
+ "risk_bands": {
+  "medium": 34.4,
+  "high": 53.8,
+  "calibration": "supervised_v2",
+  "note": "监督档阈值（0.9 权重融合分布校准）"
+ },
+ "register_hint": "",
+ "encoding_warning": "",
+ "jargon_hits": [],
+ "jargon_bonus": 0.0
+}

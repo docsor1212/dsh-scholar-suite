@@ -1,0 +1,62 @@
+{
+ "bundled_at": "2026-10-21T15:29:23",
+ "source": "SkillHub 上架包(skillhub install)",
+ "skills": [
+  {
+   "dir": "academic-figures",
+   "slug": "academic-figures",
+   "version": "",
+   "skillhub_latest": "5.6.1",
+   "match": "latest-published(no version line in frontmatter)"
+  },
+  {
+   "dir": "cite-holmes",
+   "slug": "cite-holmes",
+   "version": "",
+   "skillhub_latest": "4.6.0",
+   "match": "latest-published(no version line in frontmatter)"
+  },
+  {
+   "dir": "cn-med-oa",
+   "slug": "cn-med-oa",
+   "version": "2.4.1",
+   "skillhub_latest": "2.4.1",
+   "match": "yes"
+  },
+  {
+   "dir": "doc-holmes",
+   "slug": "doc-holmes",
+   "version": "",
+   "skillhub_latest": "3.0.1",
+   "match": "latest-published(no version line in frontmatter)"
+  },
+  {
+   "dir": "humanize-ai-text",
+   "slug": "humanize-ai-text",
+   "version": "",
+   "skillhub_latest": "4.2.0",
+   "match": "latest-published(no version line in frontmatter)"
+  },
+  {
+   "dir": "paper-polisher-pro",
+   "slug": "paper-polisher-pro",
+   "version": "6.2.0",
+   "skillhub_latest": "6.2.0",
+   "match": "yes"
+  },
+  {
+   "dir": "paper-rewriter",
+   "slug": "paper-rewriter",
+   "version": "",
+   "skillhub_latest": "4.2.0",
+   "match": "latest-published(no version line in frontmatter)"
+  },
+  {
+   "dir": "pubmed-verifier",
+   "slug": "pubmed-verifier",
+   "version": "5.4.0",
+   "skillhub_latest": "5.4.0",
+   "match": "yes"
+  }
+ ]
+}

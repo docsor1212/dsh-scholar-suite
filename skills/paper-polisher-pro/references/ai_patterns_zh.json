@@ -1,0 +1,274 @@
+{
+  "version": "4.0.0",
+  "description": "v3数据驱动重校准版 (基线语料实测FPR过滤)",
+  "recalibration": {
+    "date": "2026-08-15",
+    "corpus": "eval/corpora_small/eval_zh.jsonl",
+    "humans": 245,
+    "ais": 1645,
+    "dropped": 568,
+    "demoted": 5
+  },
+  "categories": {
+    "weak_signals": {
+      "weight": 1,
+      "description": "v3重校准: 人类语料命中3%+且lift<2的弱信号, 仅组合计分(单独命中不足以判AI)",
+      "patterns": [
+        "然后",
+        "因此",
+        "再次",
+        "似乎",
+        "先.*再.*"
+      ]
+    },
+    "filler_phrases": {
+      "weight": 3,
+      "description": "各模型通用AI高频填充短语",
+      "patterns": [
+        "值得注意的是",
+        "综上所述",
+        "总而言之",
+        "具体而言",
+        "深入探讨",
+        "深入理解",
+        "系统梳理",
+        "深入分析",
+        "旨在探讨",
+        "具有重要意义",
+        "提供了新的视角",
+        "奠定了基础",
+        "本文旨在",
+        "本研究旨在",
+        "本研究通过",
+        "本研究为",
+        "与此同时",
+        "在此基础上",
+        "尤其是",
+        "特别是",
+        "不容忽视",
+        "至关重要",
+        "关键作用",
+        "重要意义",
+        "不可忽视"
+      ]
+    },
+    "ai_cliches": {
+      "weight": 4,
+      "description": "AI标志性套话和陈词滥调（最强信号）",
+      "patterns": [
+        "令人印象深刻",
+        "令人满意",
+        "新思路",
+        "日益受到",
+        "不断完善",
+        "展现出.*潜力",
+        "展现出.*价值",
+        "为.*提供了新",
+        "值得关注",
+        "引起了广泛关注",
+        "为.{2,15}(铺平|奠定|打开)了.{2,10}(道路|基础|大门|新方向)"
+      ]
+    },
+    "conclusion_patterns": {
+      "weight": 4,
+      "description": "AI标志性结尾模式",
+      "patterns": [
+        "本研究(为|对).{0,30}(提供了|具有一定的)",
+        "研究结果.{0,20}(表明|显示|证实)"
+      ]
+    },
+    "transition_words": {
+      "weight": 2,
+      "description": "AI过度使用的过渡词",
+      "patterns": [
+        "此外",
+        "同时",
+        "然而",
+        "与此同时",
+        "另一方面",
+        "进一步地",
+        "总的来说",
+        "首先",
+        "其次"
+      ]
+    },
+    "sentence_structure": {
+      "weight": 2,
+      "description": "AI典型句式特征",
+      "patterns": [
+        "不仅.{2,20}而且.{2,30}",
+        "不仅.{2,20}还.{2,30}",
+        "既.{2,15}又.{2,15}",
+        "一方面.{5,40}另一方面.{5,40}",
+        "通过.{2,30}实现了.{2,30}",
+        "通过.{2,30}为.{2,30}(提供了|奠定了)",
+        "随着.{2,20}的(发展|深入|推进|不断|广泛)",
+        "对于.*来说",
+        "对.*而言",
+        "作为.*的.*之一",
+        "在.*中(扮演|发挥|起到)"
+      ]
+    },
+    "vague_expressions": {
+      "weight": 2,
+      "description": "AI倾向使用的模糊表达",
+      "patterns": [
+        "在一定程度上",
+        "整体而言",
+        "可以说",
+        "总体而言",
+        "总体来说"
+      ]
+    },
+    "redundant_expressions": {
+      "weight": 1,
+      "description": "AI冗余表达",
+      "patterns": [
+        "进行(了)?(深入|详细|全面|系统)的?(分析|研究|探讨|阐述)",
+        "对.{2,15}进行了.{2,15}(分析|研究|探讨)",
+        "进行了.*分析",
+        "进行了.*研究",
+        "进行了.*探讨"
+      ]
+    },
+    "deepseek_fingerprint": {
+      "weight": 4,
+      "description": "DeepSeek模型指纹：教科书体+数据驱动+编号结构（最强信号）",
+      "patterns": [
+        "大规模.*研究"
+      ]
+    },
+    "glm_fingerprint": {
+      "weight": 3,
+      "description": "GLM/智谱模型指纹：四平八稳综述体",
+      "patterns": [
+        "关注的焦点",
+        "确保.*安全",
+        "以确保.*安全"
+      ]
+    },
+    "qwen_fingerprint": {
+      "weight": 3,
+      "description": "Qwen/通义模型指纹：编号体+标准论文格式",
+      "patterns": [
+        "存在.*的风险",
+        "存在.*的风险"
+      ]
+    },
+    "kimi_fingerprint": {
+      "weight": 3,
+      "description": "Kimi/月之暗面指纹：口语+专业混搭+破折号+伪随性",
+      "patterns": [
+        "实际.*问题",
+        "这个问题",
+        "这个.*问题"
+      ]
+    },
+    "minimax_fingerprint": {
+      "weight": 4,
+      "description": "MiniMax指纹：文艺比喻+排比+情感色彩（最强信号）",
+      "patterns": [
+        "在.*与.*之间"
+      ]
+    },
+    "colloquial_in_academic": {
+      "weight": 3,
+      "description": "口语化表达侵入学术文本（Kimi/MiniMax等模型的伪口语风格）",
+      "patterns": [
+        "实际.*问题",
+        "核心问题",
+        "关键在于"
+      ]
+    },
+    "step_fingerprint": {
+      "weight": 3,
+      "description": "Step/阶跃指纹：西式中译+'让我们'式表达",
+      "patterns": [
+        "让我们.*"
+      ]
+    },
+    "rlhf_alignment": {
+      "weight": 3,
+      "description": "RLHF对齐特征：过度礼貌、回避性表达、总结性语句、免责声明等",
+      "patterns": [
+        "值得一提的是",
+        "在一定程度上",
+        "总的来说",
+        "总体而言",
+        "更重要的是",
+        "在此基础上",
+        "具有重要意义",
+        "具有重要的"
+      ]
+    },
+    "medical_templates": {
+      "weight": 4,
+      "description": "医学学术模板化表达：AI在医学综述/研究论文中高频使用的固定句式和短语",
+      "patterns": [
+        "在.*方面",
+        "在.*方面，",
+        "被认为是",
+        "关键环节",
+        "本研究旨在探讨",
+        "独立危险因素"
+      ]
+    },
+    "structural_markers": {
+      "weight": 3,
+      "description": "AI写作的结构性标记",
+      "patterns": [
+        "具有重要意义",
+        "发挥着",
+        "治疗策略",
+        "个体化治疗",
+        "分为.*?型",
+        "需.*?长期",
+        "诊断.*?基于",
+        "旨在.*?控制",
+        "旨在.*?保护",
+        "改善.*?预后",
+        "个体化",
+        "近年来.*?降低",
+        "优化.*治疗",
+        "优化.*方案",
+        "精准.*干预"
+      ]
+    },
+    "markdown_format": {
+      "weight": 2,
+      "description": "Markdown格式（AI输出特征）",
+      "patterns": [
+        "\\n\\d+\\.\\s"
+      ]
+    },
+    "translationese": {
+      "weight": 3,
+      "description": "翻译腔：英文句法直译痕迹，非自然中文医学表述（被动堆叠/连词链/定语堆叠/名词化）",
+      "patterns": [
+        "被视为",
+        "被(证明|发现|证实)",
+        "扮演.{0,4}角色",
+        "发挥着.{0,8}作用",
+        "对.{2,20}进行(了)?(详细|系统|全面|深入|进一步)",
+        "使得.{2,30}",
+        "从而(导致|使|促进|降低|提高|增加|减少)",
+        "从.{2,10}的(角度|视角|立场)来看"
+      ]
+    },
+    "fingerprint_kimi_k3": {
+      "weight": 3,
+      "description": "v4挖掘: kimi-k3 (mined 2026-09-23 via opencode-go)",
+      "patterns": [
+        "实践中",
+        "体会到"
+      ]
+    },
+    "fingerprint_kimi_k2_7": {
+      "weight": 3,
+      "description": "v4挖掘: kimi-k2.7 (mined 2026-09-26 via opencode-go)",
+      "patterns": [
+        "实践中"
+      ]
+    }
+  }
+}

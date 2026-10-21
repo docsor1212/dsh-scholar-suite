@@ -1,0 +1,5 @@
+# dsh-scholar-suite 配置补丁示例(用户侧 ~/.dsh/profiles/<profile>/cordis.patch.yml)
+# 当前无必填配置;各技能按自身文档运行(多数只需 Python 3.8+,个别技能的可选依赖见其 SKILL.md)。
+- id: dsh-scholar-suite
+  name: dsh-scholar-suite
+  config: {}

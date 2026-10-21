@@ -1,0 +1,780 @@
+{
+ "engine_version": "5.8.0",
+ "generated_at": "2026-10-16 03:27:34",
+ "length_chars": 7418,
+ "detect": {
+  "file": "",
+  "overall_ai_score": 8.9,
+  "overall_risk": "low",
+  "total_paragraphs": 59,
+  "avg_ttr": 0.913,
+  "avg_sentence_len": 56.8,
+  "avg_sentence_len_variance": 707.7,
+  "paragraph_scores": [
+   {
+    "index": 0,
+    "text": "# 🗺️ IEI 病种深读系列 · 闲时制作规划 v3（16 期，对齐 ImmunoLens，受众=儿科医生/免疫学研究生）",
+    "lang": "zh",
+    "ai_score": 11.0,
+    "matched_patterns": [],
+    "ttr": 0.963,
+    "avg_sentence_len": 62.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 62,
+    "bigram_diversity": 1.0,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 1.0,
+    "burstiness_score": 10,
+    "content_only_score": 11.0
+   },
+   {
+    "index": 1,
+    "text": "> **v3 修订（2026-08-31）**：第 16 期 VEXAS→XLP。原因：受众定位为儿科医生/免疫学研究生后，VEXAS（50 岁以上男性发病）与受众临床不匹配，且原行存在发病年龄事实错误；XLP 为男孩 EBV 感染后急症，",
+    "lang": "zh",
+    "ai_score": 9.4,
+    "matched_patterns": [],
+    "ttr": 0.84,
+    "avg_sentence_len": 39.0,
+    "sentence_len_variance": 189.0,
+    "paragraph_len": 160,
+    "bigram_diversity": 0.975,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.2966,
+    "perplexity_score": 2.5,
+    "burstiness_score": 1.9498835462217845,
+    "content_only_score": 9.4
+   },
+   {
+    "index": 2,
+    "text": "> **v2 修订（2026-08-31）**：应用户指示，从\"类总览\"转为**病种深读**——受众定位**儿科医生/免疫学研究生**，每期把一个最重要/最常见的病种讲透（定义/遗传/分子机制/临床表型/免疫检测/诊断标准/治疗/陷阱），不",
+    "lang": "zh",
+    "ai_score": 16.0,
+    "matched_patterns": [],
+    "ttr": 0.883,
+    "avg_sentence_len": 125.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 126,
+    "bigram_diversity": 0.9737,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 1.0,
+    "burstiness_score": 10,
+    "content_only_score": 16.0
+   },
+   {
+    "index": 3,
+    "text": "> **进度（2026-09-02 更新）**：12 LAD/SCN ✅ 完成（note_1788286829_02f3c8，4K 866s，台账见主题台账）。",
+    "lang": "zh",
+    "ai_score": 15.0,
+    "matched_patterns": [],
+    "ttr": 0.846,
+    "avg_sentence_len": 79.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 80,
+    "bigram_diversity": 0.9167,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 0.0,
+    "burstiness_score": 10,
+    "content_only_score": 15.0
+   },
+   {
+    "index": 4,
+    "text": "> **进度（2026-09-03 更新）**：15 HAE/终末补体 ✅ 闲时闭环（note_1788377679_ac24da，4K 780.2s，飞书 code=0×3，台账见主题台账）。",
+    "lang": "zh",
+    "ai_score": 17.5,
+    "matched_patterns": [],
+    "ttr": 0.905,
+    "avg_sentence_len": 96.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 97,
+    "bigram_diversity": 0.95,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 2.5,
+    "burstiness_score": 10,
+    "content_only_score": 17.5
+   },
+   {
+    "index": 5,
+    "text": "> **进度（2026-09-03 更新）**：13 FMF ✅ 闲时闭环（文章 note_1788288108_435a70，4K 945s，飞书 code=0×3，台账见主题台账）。",
+    "lang": "zh",
+    "ai_score": 17.5,
+    "matched_patterns": [],
+    "ttr": 0.895,
+    "avg_sentence_len": 92.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 93,
+    "bigram_diversity": 0.9444,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 2.5,
+    "burstiness_score": 10,
+    "content_only_score": 17.5
+   },
+   {
+    "index": 6,
+    "text": "> **进度补记（2026-09-03）**：13 FMF v2 外审修订版交付——专家结论\"典范级，细节精确化\"，落实毒性剂量精确化+CLUSTER 72周数据（引文[9]）；封面参照SCID版式重做；4K 967.4s；归墟文章v3；飞",
+    "lang": "zh",
+    "ai_score": 5.0,
+    "matched_patterns": [],
+    "ttr": 0.889,
+    "avg_sentence_len": 25.6,
+    "sentence_len_variance": 979.4,
+    "paragraph_len": 133,
+    "bigram_diversity": 0.9623,
+    "trigram_diversity": 0.9808,
+    "ppl_burstiness": 1.3967,
+    "perplexity_score": 0.0,
+    "burstiness_score": 0.0,
+    "content_only_score": 5.0
+   },
+   {
+    "index": 7,
+    "text": "> **进度（2026-08-31）**：01 SCID ✅ 已完成（归墟 note_1788128315_61676f，4K 798s，飞书已交付，台账 v22）。",
+    "lang": "zh",
+    "ai_score": 15.0,
+    "matched_patterns": [],
+    "ttr": 0.929,
+    "avg_sentence_len": 82.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 83,
+    "bigram_diversity": 1.0,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 0.0,
+    "burstiness_score": 10,
+    "content_only_score": 15.0
+   },
+   {
+    "index": 8,
+    "text": "> **总纲**：《IEI 总论》note_1788096758_7f0c32（IUIS 2024）。",
+    "lang": "en",
+    "ai_score": 49.7,
+    "matched_patterns": [
+     {
+      "pattern": "\\*\\*.*?\\*\\*",
+      "category": "en_markdown",
+      "weight": 8
+     }
+    ],
+    "ttr": 1.0,
+    "avg_sentence_len": 4.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 51,
+    "bigram_diversity": 1.0,
+    "trigram_diversity": 0.5,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 0.0,
+    "burstiness_score": 10,
+    "content_only_score": 49.7
+   },
+   {
+    "index": 9,
+    "text": "> **ImmunoLens 对齐**（http://localhost:5173，后端 API 8001 /api/v1）：每期产出前先调 `/api/v1/diseases/search` 或 `/api/v1/genes/{sy",
+    "lang": "zh",
+    "ai_score": 7.5,
+    "matched_patterns": [],
+    "ttr": 0.866,
+    "avg_sentence_len": 82.3,
+    "sentence_len_variance": 2392.9,
+    "paragraph_len": 250,
+    "bigram_diversity": 0.9545,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5676,
+    "perplexity_score": 2.5,
+    "burstiness_score": 0.0,
+    "content_only_score": 7.5
+   },
+   {
+    "index": 10,
+    "text": "> **队列**：wishlist.txt 待消费区 16 行，按优先级排序。",
+    "lang": "zh",
+    "ai_score": 10.0,
+    "matched_patterns": [],
+    "ttr": 1.0,
+    "avg_sentence_len": 38.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 39,
+    "bigram_diversity": 1.0,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 0.0,
+    "burstiness_score": 10,
+    "content_only_score": 10.0
+   },
+   {
+    "index": 11,
+    "text": "## 16 期队列（按重要性与常见度排序）",
+    "lang": "zh",
+    "ai_score": 7.0,
+    "matched_patterns": [],
+    "ttr": 1.0,
+    "avg_sentence_len": 21.0,
+    "sentence_len_variance": 0.0,
+    "paragraph_len": 21,
+    "bigram_diversity": 1.0,
+    "trigram_diversity": 1.0,
+    "ppl_burstiness": 0.5,
+    "perplexity_score": 0.0,
+    "burstiness_score": 10,
+    "content_only_score": 7.0
+   }
+  ],
+  "top_patterns": [
+   {
+    "pattern": "\\*\\*.*?\\*\\*",
+    "count": 1
+   }
+  ],
+  "language": "zh",
+  "details": "AI痕迹评分: 8.9/100  🟢 低风险\n共 59 段，命中 1 条AI模式\n\n段落明细:\n  P01 [██░░░░░░░░░░░░░░░░░░]  11.0  (TTR=0.96 句长方差=0.0)\n  P02 [█░░░░░░░░░░░░░░░░░░░]   9.4  (TTR=0.84 句长方差=189.0)\n  P03 [███░░░░░░░░░░░░░░░░░]  16.0  (TTR=0.88 句长方差=0.0)\n  P04 [███░░░░░░░░░░░░░░░░░]  15.0  (TTR=0.85 句长方差=0.0)\n  P05 [███░░░░░░░░░░░░░░░░░]  17.5  (TTR=0.91 句长方差=0.0)\n  P06 [███░░░░░░░░░░░░░░░░░]  17.5  (TTR=0.90 句长方差=0.0)\n  P07 [█░░░░░░░░░░░░░░░░░░░]   5.0  (TTR=0.89 句长方差=979.4)\n  P08 [███░░░░░░░░░░░░░░░░░]  15.0  (TTR=0.93 句长方差=0.0)\n  P09 [█████████░░░░░░░░░░░]  49.7  (TTR=1.00 句长方差=0.0)\n  P10 [█░░░░░░░░░░░░░░░░░░░]   7.5  (TTR=0.87 句长方差=2392.9)\n  P11 [██░░░░░░░░░░░░░░░░░░]  10.0  (TTR=1.00 句长方差=0.0)\n  P12 [█░░░░░░░░░░░░░░░░░░░]   7.0  (TTR=1.00 句长方差=0.0)\n  P13 [██░░░░░░░░░░░░░░░░░░]  10.0  (TTR=1.00 句长方差=0.0)\n  P14 [███░░░░░░░░░░░░░░░░░]  16.0  (TTR=1.00 句长方差=0.0)\n  P15 [███░░░░░░░░░░░░░░░░░]  19.5  (TTR=0.80 句长方差=0.0)\n  P16 [█░░░░░░░░░░░░░░░░░░░]   7.5  (TTR=0.89 句长方差=1274.2)\n  P17 [███░░░░░░░░░░░░░░░░░]  16.0  (TTR=0.95 句长方差=0.0)\n  P18 [███░░░░░░░░░░░░░░░░░]  17.5  (TTR=0.88 句长方差=0.0)\n  P19 [████░░░░░░░░░░░░░░░░]  23.0  (TTR=0.93 句长方差=0.0)\n  P20 [█░░░░░░░░░░░░░░░░░░░]   5.0  (TTR=0.85 句长方差=1279.7)\n  P21 [████░░░░░░░░░░░░░░░░]  23.0  (TTR=0.83 句长方差=0.0)\n  P22 [███░░░░░░░░░░░░░░░░░]  18.9  (TTR=0.94 句长方差=552.2)\n  P23 [█░░░░░░░░░░░░░░░░░░░]   5.0  (TTR=0.95 句长方差=4257.0)\n  P24 [░░░░░░░░░░░░░░░░░░░░]   0.0  (TTR=0.91 句长方差=132.2)\n  P25 [░░░░░░░░░░░░░░░░░░░░]   1.0  (TTR=0.88 句长方差=1383.2)\n  P26 [████░░░░░░░░░░░░░░░░]  23.7  (TTR=0.56 句长方差=0.0)\n  P27 [░░░░░░░░░░░░░░░░░░░░]   1.0  (TTR=0.90 句长方差=1673.5)\n  P28 [████░░░░░░░░░░░░░░░░]  21.8  (TTR=0.58 句长方差=0.0)\n  P29 [█░░░░░░░░░░░░░░░░░░░]   9.1  (TTR=0.97 句长方差=2450.2)\n  P30 [░░░░░░░░░░░░░░░░░░░░]   2.7  (TTR=1.00 句长方差=0.0)\n  P31 [█░░░░░░░░░░░░░░░░░░░]   5.0  (TTR=0.84 句长方差=220.7)\n  P32 [█░░░░░░░░░░░░░░░░░░░]   6.0  (TTR=0.95 句长方差=576.0)\n  P33 [█░░░░░░░░░░░░░░░░░░░]   8.0  (TTR=1.00 句长方差=0.0)\n  P34 [█░░░░░░░░░░░░░░░░░░░]   6.0  (TTR=0.90 句长方差=5184.0)\n  P35 [█░░░░░░░░░░░░░░░░░░░]   6.3  (TTR=1.00 句长方差=0.0)\n  P36 [██░░░░░░░░░░░░░░░░░░]  11.6  (TTR=0.94 句长方差=4.2)\n  P37 [█░░░░░░░░░░░░░░░░░░░]   6.0  (TTR=0.90 句长方差=1122.2)\n  P38 [░░░░░░░░░░░░░░░░░░░░]   0.0  (TTR=0.91 句长方差=113.6)\n  P39 [█░░░░░░░░░░░░░░░░░░░]   9.1  (TTR=0.90 句长方差=77.6)\n  P40 [░░░░░░░░░░░░░░░░░░░░]   0.7  (TTR=0.96 句长方差=100.0)\n  P41 [█░░░░░░░░░░░░░░░░░░░]   8.7  (TTR=1.00 句长方差=0.0)\n  P42 [████░░░░░░░░░░░░░░░░]  23.0  (TTR=1.00 句长方差=0.0)\n  P43 [██░░░░░░░░░░░░░░░░░░]  10.0  (TTR=0.85 句长方差=0.0)\n  P44 [██░░░░░░░░░░░░░░░░░░]  10.8  (TTR=0.95 句长方差=0.0)\n  P45 [██░░░░░░░░░░░░░░░░░░]  10.8  (TTR=0.97 句长方差=0.0)\n  P46 [█░░░░░░░░░░░░░░░░░░░]   6.7  (TTR=0.86 句长方差=0.0)\n  P47 [█░░░░░░░░░░░░░░░░░░░]   5.7  (TTR=1.00 句长方差=0.0)\n  P48 [██░░░░░░░░░░░░░░░░░░]  10.0  (TTR=0.92 句长方差=0.0)\n  P49 [██░░░░░░░░░░░░░░░░░░]  10.0  (TTR=1.00 句长方差=0.0)\n  P50 [███░░░░░░░░░░░░░░░░░]  17.2  (TTR=0.93 句长方差=400.0)\n  P51 [███░░░░░░░░░░░░░░░░░]  16.0  (TTR=0.95 句长方差=0.0)\n  P52 [█░░░░░░░░░░░░░░░░░░░]   6.0  (TTR=0.89 句长方差=8010.2)\n  P53 [█░░░░░░░░░░░░░░░░░░░]   6.0  (TTR=0.95 句长方差=3600.0)\n  P54 [█░░░░░░░░░░░░░░░░░░░]   9.0  (TTR=0.88 句长方差=2970.2)\n  P55 [████░░░░░░░░░░░░░░░░]  23.0  (TTR=1.00 句长方差=0.0)\n  P56 [██░░░░░░░░░░░░░░░░░░]  10.9  (TTR=1.00 句长方差=0.0)\n  P57 [░░░░░░░░░░░░░░░░░░░░]   1.0  (TTR=0.91 句长方差=400.0)\n  P58 [█░░░░░░░░░░░░░░░░░░░]   6.0  (TTR=0.89 句长方差=1806.2)\n  P59 [█░░░░░░░░░░░░░░░░░░░]   7.5  (TTR=0.78 句长方差=607.6)\n监督层(本地Qwen3 int8): p(人类)=0.962 p(AI)=0.005 p(AI辅助)=0.033 融合分=8.9 编辑程度估计=1.00\n学术诚信提示：本工具供作者自查与改进写作质量（句式、术语、文风），不用于规避机构的 AIGC 检测，不支持将 AI 生成内容伪装为人类写作；请遵循所在机构的 AI 使用与披露政策（标识合规可用 aigc_label_check.py 自查）。\n比喻叙事AI腔: L1隐喻滥用/L2语气词 （仅提示不计分：留出集实测计分会抬人类误报，写作侧用 style_norm 第 7 查）——此类表述为 LLM 中文输出高频特征，建议替换为直陈表述",
+  "model_hints": [],
+  "supervised": {
+   "layer": "qwen3-0.6b-lora-onnx-int8",
+   "p_human": 0.9622,
+   "p_ai": 0.00494,
+   "p_ai_assisted": 0.03286,
+   "p_ai_any": 0.0378,
+   "n_tokens": 1024,
+   "edit_extent": 1.0
+  },
+  "degraded_mode": false,
+  "degraded_notice": "",
+  "discourse_hits": [],
+  "discourse_bonus": 0.0,
+  "integrity_notice": "学术诚信提示：本工具供作者自查与改进写作质量（句式、术语、文风），不用于规避机构的 AIGC 检测，不支持将 AI 生成内容伪装为人类写作；请遵循所在机构的 AI 使用与披露政策（标识合规可用 aigc_label_check.py 自查）。",
+  "mixed_signal": false,
+  "mixed_notice": "",
+  "risk_bands": {
+   "medium": 34.4,
+   "high": 53.8,
+   "calibration": "supervised_v2",
+   "note": "监督档阈值（0.9 权重融合分布校准）"
+  },
+  "register_hint": "",
+  "encoding_warning": "",
+  "jargon_hits": [
+   {
+    "tier": "L1隐喻滥用",
+    "count": 10,
+    "distinct": 3,
+    "samples": [
+     "闭环",
+     "对齐",
+     "讲透"
+    ]
+   },
+   {
+    "tier": "L2语气词",
+    "count": 4,
+    "distinct": 3,
+    "samples": [
+     "陷阱",
+     "锚定",
+     "主线"
+    ]
+   }
+  ],
+  "jargon_bonus": 0.0
+ },
+ "paragraphs": {
+  "thresholds": {
+   "medium": 63.7,
+   "high": 74.9
+  },
+  "total": 59,
+  "high": 0,
+  "medium": 0,
+  "items": [
+   {
+    "index": 1,
+    "score": 55.5,
+    "class": "lo",
+    "excerpt": "# 🗺️ IEI 病种深读系列 · 闲时制作规划 v3（16 期，对齐 ImmunoLens，受众=儿科医生/免疫学研究"
+   },
+   {
+    "index": 2,
+    "score": 44.7,
+    "class": "lo",
+    "excerpt": "> **v3 修订（2026-08-31）**：第 16 期 VEXAS→XLP。原因：受众定位为儿科医生/免疫学研究生"
+   },
+   {
+    "index": 3,
+    "score": 52.0,
+    "class": "lo",
+    "excerpt": "> **v2 修订（2026-08-31）**：应用户指示，从\"类总览\"转为**病种深读**——受众定位**儿科医生/免"
+   },
+   {
+    "index": 4,
+    "score": 51.8,
+    "class": "lo",
+    "excerpt": "> **进度（2026-09-02 更新）**：12 LAD/SCN ✅ 完成（note_1788286829_02f3"
+   },
+   {
+    "index": 5,
+    "score": 53.0,
+    "class": "lo",
+    "excerpt": "> **进度（2026-09-03 更新）**：15 HAE/终末补体 ✅ 闲时闭环（note_1788377679_a"
+   },
+   {
+    "index": 6,
+    "score": 53.0,
+    "class": "lo",
+    "excerpt": "> **进度（2026-09-03 更新）**：13 FMF ✅ 闲时闭环（文章 note_1788288108_435"
+   },
+   {
+    "index": 7,
+    "score": 52.5,
+    "class": "lo",
+    "excerpt": "> **进度补记（2026-09-03）**：13 FMF v2 外审修订版交付——专家结论\"典范级，细节精确化\"，落实"
+   },
+   {
+    "index": 8,
+    "score": 7.5,
+    "class": "lo",
+    "excerpt": "> **进度（2026-08-31）**：01 SCID ✅ 已完成（归墟 note_1788128315_61676f"
+   },
+   {
+    "index": 9,
+    "score": 24.9,
+    "class": "lo",
+    "excerpt": "> **总纲**：《IEI 总论》note_1788096758_7f0c32（IUIS 2024）。"
+   },
+   {
+    "index": 10,
+    "score": 52.3,
+    "class": "lo",
+    "excerpt": "> **ImmunoLens 对齐**（http://localhost:5173，后端 API 8001 /ap"
+   },
+   {
+    "index": 11,
+    "score": 55.0,
+    "class": "lo",
+    "excerpt": "> **队列**：wishlist.txt 待消费区 16 行，按优先级排序。"
+   },
+   {
+    "index": 12,
+    "score": 50.4,
+    "class": "lo",
+    "excerpt": "## 16 期队列（按重要性与常见度排序）"
+   }
+  ]
+ },
+ "mixed_document": {
+  "detected": false,
+  "hi": 0,
+  "medium": 0,
+  "low": 59,
+  "ai_paragraph_fraction_est": 0.0,
+  "measured": {
+   "document_level_auroc": "0.52-0.54",
+   "paragraph_level_auroc": 0.6883,
+   "calibrated_high_threshold": 50.0,
+   "calibrated_precision": 0.6,
+   "source": "references/para_thresholds.json + eval/results/mixed_para_20261005.json"
+  },
+  "guidance": ""
+ },
+ "gate": {
+  "composite_ai_risk": 19.4,
+  "verdict": "pass",
+  "layers": {
+   "L2_word_patterns": {
+    "ai_score": 8.9,
+    "weight": 0.35,
+    "note": "词级8.9(low)"
+   },
+   "L4_style_features": {
+    "style_score": 78.5,
+    "weight": 0.45,
+    "note": "文体78.5(human_like)"
+   },
+   "L3_translation_smell": {
+    "smell_score": 33.0,
+    "weight": 0.2,
+    "note": "翻译腔命中1(盲区1)"
+   },
+   "L1_terminology": {
+    "advisory": false,
+    "note": "标准率68.2%"
+   }
+  },
+  "bands": "composite<35 通过 | 35-55 需复核 | >=55 疑似AI",
+  "integrity_notice": "本门禁供作者自查与改进写作质量, 不用于规避机构 AIGC 检测; 请遵循所在机构 AI 使用与披露政策。",
+  "layer_divergence": 12.6,
+  "divergence_note": "",
+  "honesty": "文体与词级检测是概率性判断, 不构成定罪; 阈值依据2026-06 EVAL, 建议结合人工审阅"
+ },
+ "fix_suggest": {
+  "stats": {
+   "total_sentences": 100,
+   "flagged_sentences": 12,
+   "flag_ratio": 0.12,
+   "connective_open_ratio": 0.0,
+   "type_counts": {
+    "punctuation": 14,
+    "rhythm": 2
+   }
+  },
+  "language": "zh",
+  "top_issues": [
+   {
+    "index": 9,
+    "sentence": "> **进度补记（2026-09-03）**：13 FMF v2 外审修订版交付——专家结论\"典范级，细节精确化\"，落实毒性剂量精确化+CLUSTER 72周数据（引文[9]）；",
+    "issues": [
+     {
+      "type": "punctuation",
+      "evidence": "破折号"
+     },
+     {
+      "type": "punctuation",
+      "evidence": "：13 FMF v2 外审修订版交付——"
+     }
+    ]
+   },
+   {
+    "index": 85,
+    "sentence": "> **进度补记2（2026-09-01 12:40）**：03 XLA 续接完成——接管过期 sigad GPU 锁（04:56 零心跳>6h，审计后归档）→ TTS 17/17（期间发现并修复 batch_tts 共享 /tmp 任务文件碰撞，看板警示卡 t_87012a7f）→ 装配 4K 1094.9s → SRT 还原 → 管线 5.1-5.9 全绿 → 飞书交付（4K 本地留存+1080p+SRT+说明三消息 code=0）。",
+    "issues": [
+     {
+      "type": "punctuation",
+      "evidence": "破折号"
+     },
+     {
+      "type": "punctuation",
+      "evidence": "：03 XLA 续接完成——"
+     }
+    ]
+   },
+   {
+    "index": 90,
+    "sentence": "> **进度补记（2026-09-02 03:15）**：09 FHL 闲时闭环完成——TTS 阶段遭遇跨实例 /tmp/tts_tasks.txt 竞态（SCID 实例覆盖任务文件致 S13-S16 污染/丢失），已修复（batch_tts 任务文件项目专名化，模板同步 __PROJECT__ 占位符）并重合成；",
+    "issues": [
+     {
+      "type": "punctuation",
+      "evidence": "破折号"
+     },
+     {
+      "type": "punctuation",
+      "evidence": "：09 FHL 闲时闭环完成——"
+     }
+    ]
+   },
+   {
+    "index": 96,
+    "sentence": "> **进度补记（2026-09-03 02:40）**：09 FHL v2 修订交付——用户三项意见（封面参照SCID重做/补完整定义/专家复审核对）全部落实：封面SCID骨架重做；",
+    "issues": [
+     {
+      "type": "punctuation",
+      "evidence": "破折号"
+     },
+     {
+      "type": "punctuation",
+      "evidence": "：09 FHL v2 修订交付——"
+     }
+    ]
+   },
+   {
+    "index": 5,
+    "sentence": "> **v2 修订（2026-08-31）**：应用户指示，从\"类总览\"转为**病种深读**——受众定位**儿科医生/免疫学研究生**，每期把一个最重要/最常见的病种讲透（定义/遗传/分子机制/临床表型/免疫检测/诊断标准/治疗/陷阱），不再泛泛谈类。",
+    "issues": [
+     {
+      "type": "punctuation",
+      "evidence": "破折号"
+     }
+    ]
+   }
+  ],
+  "notice": "改写建议是排序辅助：指位与策略供人工润稿参考，完整版见 pp.py fix（不代写，改写决定权在作者）。"
+ },
+ "terms": {
+  "file": "",
+  "total_issues": 7,
+  "standardization_rate": 68.2,
+  "issues": [
+   {
+    "original": "CVID",
+    "standard": "常见变异型免疫缺陷病",
+    "source": "IUIS 2024 / MeSH",
+    "position": 1771,
+    "context": "门控全绿） |\n| 04 | CVID | PAD /learn/p",
+    "en_name": "common variable immunodeficiency"
+   },
+   {
+    "original": "CVID",
+    "standard": "常见变异型免疫缺陷病",
+    "source": "IUIS 2024 / MeSH",
+    "position": 5761,
+    "context": "08-31）\n\n- ✅ 04 CVID 完成（2026-08-31）",
+    "en_name": "common variable immunodeficiency"
+   },
+   {
+    "original": "IL2RG",
+    "standard": "共同γ链",
+    "source": "免疫学名词 / Abbas",
+    "position": 1289,
+    "context": " | ✅ SCID 谱系分型（IL2RG/ADA/RAG1/2） | ",
+    "en_name": "common gamma chain"
+   },
+   {
+    "original": "IPEX",
+    "standard": "免疫失调性多内分泌腺病肠病X连锁",
+    "source": "IUIS 2024 / MeSH",
+    "position": 2730,
+    "context": "门控绿 |\n| 10 | ✅ IPEX（FOXP3） | PIRD ",
+    "en_name": "immune dysregulation, polyendocrinopathy, enteropathy, X-linked"
+   },
+   {
+    "original": "HA20",
+    "standard": "A20单倍体不足",
+    "source": "IUIS 2024",
+    "position": 4721,
+    "context": "LA4、LRBA、DADA2、HA20（TNFAIP3）、STING",
+    "en_name": "A20 haploinsufficiency"
+   },
+   {
+    "original": "CAPS",
+    "standard": "冷吡啉相关周期性综合征",
+    "source": "IUIS 2024 / MeSH",
+    "position": 3628,
+    "context": "ASS |\n| 14 | ✅ CAPS/HIDS/TRAPS 周期热",
+    "en_name": "cryopyrin-associated periodic syndromes"
+   },
+   {
+    "original": "DADA2",
+    "standard": "腺苷脱氨酶2缺陷",
+    "source": "IUIS 2024",
+    "position": 4715,
+    "context": "重复）：CTLA4、LRBA、DADA2、HA20（TNFAIP3）、",
+    "en_name": "adenosine deaminase 2 deficiency"
+   }
+  ],
+  "summary": "发现 7 处非标准术语（标准率 68.2%）：\n  1. \"CVID\" → 标准名: \"常见变异型免疫缺陷病\"（IUIS 2024 / MeSH）\n     英文: common variable immunodeficiency\n  2. \"CVID\" → 标准名: \"常见变异型免疫缺陷病\"（IUIS 2024 / MeSH）\n     英文: common variable immunodeficiency\n  3. \"IL2RG\" → 标准名: \"共同γ链\"（免疫学名词 / Abbas）\n     英文: common gamma chain\n  4. \"IPEX\" → 标准名: \"免疫失调性多内分泌腺病肠病X连锁\"（IUIS 2024 / MeSH）\n     英文: immune dysregulation, polyendocrinopathy, enteropathy, X-linked\n  5. \"HA20\" → 标准名: \"A20单倍体不足\"（IUIS 2024）\n     英文: A20 haploinsufficiency\n  6. \"CAPS\" → 标准名: \"冷吡啉相关周期性综合征\"（IUIS 2024 / MeSH）\n     英文: cryopyrin-associated periodic syndromes\n  7. \"DADA2\" → 标准名: \"腺苷脱氨酶2缺陷\"（IUIS 2024）\n     英文: adenosine deaminase 2 deficiency"
+ },
+ "smell": {
+  "total_hits": 1,
+  "hits": [
+   {
+    "rule": "R6",
+    "word": "武器",
+    "context": "题、坑/第一刀/病床边/看不见/最有力的武器/更沉重），重录 5 段解说、重装配 4K（1100.8",
+    "suggestion": "★盲区新词★ arsenal直译(免疫武器→免疫机制, 过度比喻) (term_check+ai_detector均未收录, 需专家审, 确认后扩充术语库)"
+   }
+  ]
+ },
+ "style": {
+  "style_score": 78.5,
+  "verdict": "human_like",
+  "min_paragraph_score": 10.9,
+  "paragraphs_checked": 6,
+  "paragraph_details": [
+   {
+    "lang": "zh",
+    "score": 83.0,
+    "reasons": [
+     "句长36(中等)",
+     "标点6种",
+     "句长CV0.647",
+     "长句占比0.667",
+     "虚词密度0.0164(正常)"
+    ]
+   },
+   {
+    "lang": "zh",
+    "score": 100,
+    "reasons": [
+     "句长120(人类级)",
+     "标点5种",
+     "句长CV0.849",
+     "长句占比1.0",
+     "虚词密度0.0211(正常)"
+    ]
+   },
+   {
+    "lang": "zh",
+    "score": 98.0,
+    "reasons": [
+     "句长47(人类级)",
+     "标点6种",
+     "句长CV0.399",
+     "长句占比1.0",
+     "虚词密度0.0149(正常)"
+    ]
+   }
+  ],
+  "note": "文体特征工程版(v2);score越高越像人类写作;<45疑似AI;<60需复核",
+  "integrity_notice": "ℹ️ 供学术写作自查与质量改进使用；不用于规避机构 AIGC 检测，请遵循所在机构的 AI 使用与披露政策。"
+ },
+ "quality": {
+  "file": "/tmp/tmp853pwvx_.txt",
+  "language": "zh",
+  "ai_score": 8.8,
+  "ai_risk": "low",
+  "structure_score": 12.5,
+  "readability_score": 32.7,
+  "overall_quality": 50.0,
+  "sections_found": [
+   {
+    "name": "结论",
+    "found": true,
+    "position": 671
+   }
+  ],
+  "sections_missing": [
+   {
+    "name": "摘要",
+    "found": false,
+    "position": -1
+   },
+   {
+    "name": "关键词",
+    "found": false,
+    "position": -1
+   },
+   {
+    "name": "引言",
+    "found": false,
+    "position": -1
+   },
+   {
+    "name": "方法",
+    "found": false,
+    "position": -1
+   },
+   {
+    "name": "结果",
+    "found": false,
+    "position": -1
+   },
+   {
+    "name": "讨论",
+    "found": false,
+    "position": -1
+   },
+   {
+    "name": "参考文献",
+    "found": false,
+    "position": -1
+   }
+  ],
+  "avg_sentence_len": 56.1,
+  "sentence_len_cv": 0.841,
+  "ttr": 0.268,
+  "total_chars": 7418,
+  "total_paragraphs": 60,
+  "before_ai_score": -1,
+  "improvement": 0,
+  "summary": "📊 论文质量报告\n========================================\nAI痕迹: 8.8/100 (🟢低风险)\n结构完整性: 12%（1/8 个标准章节）\n  缺失章节: 摘要, 关键词, 引言, 方法, 结果, 讨论, 参考文献\n可读性: 33/100\n  平均句长: 56.1字 | 句长变异系数: 0.84 | 词汇多样性: 0.27\n综合评分: 50.0/100\nℹ️ 供学术写作自查与质量改进使用；不用于规避机构 AIGC 检测，请遵循所在机构的 AI 使用与披露政策。"
+ },
+ "aigc_label": {
+  "evidence": [],
+  "note": "显式标识自查；元数据/C2PA 检查用 aigc_label_check.py 对成品文件运行"
+ },
+ "style_norm": {
+  "finding_count": 5,
+  "findings": [
+   {
+    "check": "numbers",
+    "severity": "inconsistent",
+    "count": 5,
+    "examples": [
+     "二次",
+     "一次",
+     "二次",
+     "72周",
+     "96例"
+    ],
+    "advice": "量词数字两种写法并存（汉字「五例」vs 阿拉伯「5例」）。统计与计量数字按 GB/T 15835 建议统一用阿拉伯数字（5 例、3 组）；习用语（「进一步」「三甲」等）可保留汉字。"
+   },
+   {
+    "check": "consistency",
+    "severity": "suggest",
+    "count": 2,
+    "examples": [
+     "发病率×1",
+     "患病率×1"
+    ],
+    "advice": "同概念异写混用（组：发病率）：全文统一为其中一种（建议「发病率」，占比最高；流行病学严格区分 incidence/prevalence——混用视为术语错误而非风格）"
+   },
+   {
+    "check": "consistency",
+    "severity": "suggest",
+    "count": 2,
+    "examples": [
+     "~×1",
+     "约×1"
+    ],
+    "advice": "同概念异写混用（组：about）：全文统一为其中一种（建议「~」，占比最高；英文学术惯用 approximately；~仅限表格）"
+   },
+   {
+    "check": "llm_jargon",
+    "severity": "inconsistent",
+    "count": 13,
+    "examples": [
+     "对齐",
+     "讲透",
+     "闭环"
+    ],
+    "advice": "L1 隐喻滥用词（LLM 中文输出高频特征，命中即改）：对齐、讲透、闭环。策略：隐喻改直陈——保留医学事实，去掉拟人/战争/工厂/旅程类比喻。"
+   },
+   {
+    "check": "llm_jargon",
+    "severity": "suggest",
+    "count": 3,
+    "examples": [
+     "主线",
+     "锚定",
+     "陷阱"
+    ],
+    "advice": "L2 语气词（语境敏感，逐处评审）：底线是别用空泛强调替代证据——「至关重要/毋庸置疑/众所周知」类改为给出具体依据或直接删除；「范式/重塑/生态」类仅在术语本义使用。医学语体推荐句式（白名单）：其机制在于／提示／表明／证实／与…相关／应。"
+   }
+  ]
+ },
+ "findings_ledger": {
+  "items": [
+   {
+    "check": "AI 率检测",
+    "status": "answered",
+    "detail": "文档级 8.9/low"
+   },
+   {
+    "check": "段落级归因",
+    "status": "answered",
+    "detail": "hi 0 / medium 0 / 共 59"
+   },
+   {
+    "check": "人机混写判定",
+    "status": "answered",
+    "detail": "未检出混写信号"
+   },
+   {
+    "check": "句子级改写建议",
+    "status": "answered",
+    "detail": "已生成 top 特征句"
+   },
+   {
+    "check": "术语/翻译腔/文体/质量",
+    "status": "answered",
+    "detail": "见 §4-§7 数值"
+   },
+   {
+    "check": "学术规范自查",
+    "status": "answered",
+    "detail": "findings 5"
+   },
+   {
+    "check": "合规标识自查",
+    "status": "answered",
+    "detail": "显式标识证据见 §8；元数据/C2PA 用 aigc_label_check 对成品文件复核"
+   }
+  ],
+  "budget": {
+   "checks_run": 9,
+   "note": "一次工作流调用完成全部检查；无迭代轮次消耗"
+  },
+  "note": "answered=结论已给出；partially=有结论但精度受限（需人工复核）；unresolved=该子检查失败，可单独重跑对应脚本。"
+ },
+ "integrity_notice": "本工作流供作者自查与改进写作质量，不用于规避机构 AIGC 检测；请遵循所在机构 AI 使用与披露政策。"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "dsh-scholar-suite",
+  "version": "0.1.0",
+  "description": "SkillHub 学术工具链 8 技能的 DeepSeek Harness 捆绑套件:学术图表/去AI味改写/论文润色/文献核验/著作医生/论文改写/引文核验/中文医学公众号,经 skills 通道整包注册,附每技能斜杠命令卡",
+  "license": "MIT",
+  "author": "docsor1212",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docsor1212/dsh-scholar-suite.git"
+  },
+  "homepage": "https://github.com/docsor1212/dsh-scholar-suite#readme",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "academic",
+    "paper",
+    "citation",
+    "skillhub",
+    "学术",
+    "论文"
+  ],
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "README.en.md",
+    "cordis.patch.yml",
+    "lib",
+    "skills",
+    "skills/manifest.json"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": "0.2.1-rc.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

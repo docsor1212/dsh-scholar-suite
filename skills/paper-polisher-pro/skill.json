@@ -1,0 +1,8 @@
+{
+  "name": "paper-polisher-pro",
+  "version": "6.2.0",
+  "description": "AI writing detector (author self-check) + academic polishing guidance + terminology protection, 100% local. 11-layer recalibrated rule engine + token-spectrum layer + length-routed fusion + optional supervised Qwen3-0.6B ONNX layer (AUROC 1.0 held-out) + LLM fingerprint attribution (GLM/DeepSeek/Qwen/Kimi/MiniMax/GPT/Claude/Gemini) + journal precheck + AIGC compliance label check + paragraph attribution + sentence-level rewrite suggestions (guidance, never auto-rewrite). Eval-driven: base-engine numbers reproduce via the bundled held-out evaluation; supervised-layer figures are author-side held-out measurements.",
+  "author": "DoctorQ Lab",
+  "changelog": "v6.2.0: side-by-side comparison visuals — pp_rewrite_check.py --html renders the rewrite-effect comparison as one self-contained HTML (difflib-aligned per-paragraph original/revised excerpts with similarity, colored score migration, document-level cards, per-feature delta table; aligned rows gain additive excerpt JSON fields); the workflow dashboard gains a signal-details section (register/mixed/discourse/jargon advisories rendered only when present). No engine scoring changes — published numbers bit-reproducible. 零新增依赖。",
+  "license": "MIT-0"
+}
