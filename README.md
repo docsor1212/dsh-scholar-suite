@@ -28,7 +28,7 @@ dsh plugin --profile web add github:docsor1212/dsh-scholar-suite
 ## 用法
 
 - **直接说需求**:技能已整包注册,模型按描述自动路由——"帮我把这段改得不像 AI 写的""核验这篇论文的引文";
-- **斜杠命令**:每技能一条方法卡,如 `/cite-holmes 这篇的引文帮我过一遍`;`/suite-status` 看全部技能与版本。
+- **斜杠命令**:每技能一条方法卡,如 `/cite-holmes 这篇的引文帮我过一遍`、`/paper-polisher-pro`;`/suite-status` 看全部技能与版本。
 
 ## 安全声明(供安装前审查)
 
